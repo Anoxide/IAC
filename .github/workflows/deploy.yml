@@ -3,7 +3,7 @@ name: Deploy to Azure
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   deploy:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.4.6  # Assurez-vous d'utiliser la dernière version stable de Terraform
+          terraform_version: 1.4.6
 
       - name: Azure Login
         uses: azure/login@v1
