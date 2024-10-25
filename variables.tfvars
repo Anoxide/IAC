@@ -1,0 +1,10 @@
+location             = "westeurope"
+vm_size              = "Standard_B1s"
+name                 = "jroyRG"
+vn_name              = "jroyVnet"
+vm_name              = "jroyVMupdated"
+osp_cname            = "jroyComptName"
+subnetname           = "jroySubnet"
+subnet_address_space = ["10.0.2.0/24"]
+ni_name              = "jroyNIC"
+ip_c_name            = "jroyNicConfig"
